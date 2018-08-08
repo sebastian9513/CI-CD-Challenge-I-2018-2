@@ -2,11 +2,16 @@
 
 Run a Jenkins 2.25 instance on Ubuntu 16.04 LTS using vagrant.
 
-## Prerequisites
-* [VirtualBox](https://www.virtualbox.org/)
-* [Vagrant](https://www.vagrantup.com/)
+# Before you start
+- Install a console with SSH (I suggest Cmder or ConEmu)
+- Create an account in Dockerhub https://hub.docker.com/ 
+- Disable or turn off hyper-v feature on (Windows features) and restart your pc.
+- Install VirtualBox from https://www.virtualbox.org/ 
+- Install Vagrant from https://www.vagrantup.com/ following https://www.vagrantup.com/docs/installation/
+- Clone the following git repository https://github.com/manherfo/CI-CD-Challenge-I-2018-2.git
+- In Vagrant folder, run the following commands.  
+- Build the vagrant box (Keep in mind that the machine build could take several minutes):
 
-## Installation
 Build the vagrant box
 
 ```
@@ -47,3 +52,15 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
 and copy it into the password field on the Jenkins server.
+
+# Next steps
+# Step 1
+- Fork the repository https://github.com/manherfo/CI-CD-Challenge-I-2018-2.git to have your own copy.
+
+- Obtain the forked repository URL and clone it. This is the application that you will need to change for your pipeline.
+
+# Step 2
+With your environment ready, you can now proceed to create the CI Pipeline. Do NOT use Jenkinsfile based solutions. Your solution should look like this:
+
+![alt text](pipeline.png)
+![Default-aligned image](pipeline.png)
