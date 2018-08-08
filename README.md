@@ -58,8 +58,26 @@ and copy it into the password field on the Jenkins server.
 - Fork the repository https://github.com/manherfo/CI-CD-Challenge-I-2018-2.git to have your own copy.
 
 - Obtain the forked repository URL and clone it. This is the application that you will need to change for your pipeline.
-
 # Step 2
+- Install node in the Vagrant machine using the right installer for your OS (https://nodejs.org/en/download/). Make sure to install npm too!
+
+- Run the following command to install the needed modules
+
+```
+npm install
+```
+
+- After that. You should be able to run the app using
+```
+npm start
+```
+
+- You can run the tests in the same way
+```
+npm test
+```
+
+# Step 3
 With your environment ready, you can now proceed to create the CI Pipeline. Do NOT use Jenkinsfile based solutions. Your solution should look like this:
 
 ![Default-aligned image](pipeline.png)
