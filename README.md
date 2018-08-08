@@ -53,13 +53,21 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 and copy it into the password field on the Jenkins server.
 
+When you finish configuring Jenkins from the web UI, restart the service
+
+```
+sudo service jenkins restart
+```
+
 # Next steps
 # Step 1
 - Fork the repository https://github.com/manherfo/CI-CD-Challenge-I-2018-2.git to have your own copy.
 
 - Obtain the forked repository URL and clone it. This is the application that you will need to change for your pipeline.
 # Step 2
-- Install node using the right installer for your OS (https://nodejs.org/en/download/). Make sure to install npm too!
+- Install node using the right installer for your OS (https://nodejs.org/en/download/package-manager/).
+
+- Make sure to install npm too!
 
 - Run the following command to install the needed modules
 
