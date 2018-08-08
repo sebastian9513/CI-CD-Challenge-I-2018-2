@@ -62,5 +62,4 @@ and copy it into the password field on the Jenkins server.
 # Step 2
 With your environment ready, you can now proceed to create the CI Pipeline. Do NOT use Jenkinsfile based solutions. Your solution should look like this:
 
-![alt text](pipeline.png)
 ![Default-aligned image](pipeline.png)
