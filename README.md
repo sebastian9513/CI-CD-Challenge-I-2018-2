@@ -59,7 +59,7 @@ and copy it into the password field on the Jenkins server.
 
 - Obtain the forked repository URL and clone it. This is the application that you will need to change for your pipeline.
 # Step 2
-- Install node in the Vagrant machine using the right installer for your OS (https://nodejs.org/en/download/). Make sure to install npm too!
+- Install node using the right installer for your OS (https://nodejs.org/en/download/). Make sure to install npm too!
 
 - Run the following command to install the needed modules
 
