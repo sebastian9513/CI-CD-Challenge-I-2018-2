@@ -18,19 +18,25 @@ Build the vagrant box
 vagrant up
 ```
 
-To access the Jenkins server
+To access the Jenkins server with GUI, open your browser with the following url:
 
 ```
 http://localhost:8080
 ```
 
-or, add the following line to the hosts file
+or, add the following line to the hosts file (OPTIONAL) 
 
 ```
 127.0.0.1   jenkins.local
 ```
 
-and then run the server with
+to access the virtual machine via CLI run the following command:
+
+```
+vagrant ssh
+```
+
+and then run the server in your browser with the following url:
 
 ```
 http://jenkins.local:8080
