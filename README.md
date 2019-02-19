@@ -92,6 +92,6 @@ npm test
 ```
 
 # Step 3
-With your environment ready, you can now proceed to create the CI Pipeline. Do NOT use Jenkinsfile based solutions. Your solution should look like this:
+With your environment ready, you can now proceed to create the CI Pipeline. Use Jenkinsfile based solutions versioning your Jenkinsfile. Your solution should look like this:
 
 ![Default-aligned image](pipeline.png)
